@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(230, 168, 168);
+}
+
+h2 {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.main {
+    background-color: beige;
+    width: 99%;
+    height: 800px;
+    margin-left: 6px;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main .smt {
+    text-align: right;
+    margin-right: 380px;
+}
+
+
+
+.main .smt .ehe {
+    margin-left: 20px;
+    padding: 8px;
+    border-radius: 4px;
+    width: 310px;
+    border: 1px solid gray;
+}
+
+
+.main .place {
+    margin-top: 10px;
+    width: 145px;
+    margin-left: 20px;
+    margin-right: 183px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.main .smt .time {
+    display: block;
+    margin-right: 353px;
+}
+
+.main .smt .timehappen {
+    margin-top: -16px;
+    margin-left: 558px;
+    text-align: left;
+}
+
+.main .smt .emotions {
+    margin-right: 353px;
+}
+
+.main .smt .emotions .checkbox {
+    position: absolute;
+    top: 466px;
+    left: 571px;
+    text-align: left;
+}
+
+.main .smt .dude {
+    margin-right: 355px;
+    margin-top: 175px;
+}
+
+.main .smt .desc {
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 80px;
+}
+
+.button {
+    background-color: rgb(230, 168, 168);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 540px;
+    margin-top: 5px;
+    border-radius: 4px;
+    colo
+}

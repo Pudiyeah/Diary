@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diary</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <div class="main">
+        <h2>Tell us something positive that happened to you today</h2>
+        <div class="smt">
+            <span>Name</span>
+            <input class="ehe" type="text" placeholder="Enter your name" size="35px"><br><br>
+            <span>Email</span>
+            <input class="ehe" type="email" placeholder="Enter your email address" size="35px"><br><br>
+            <span>On a scale of 1-10, how good was it?</span>
+            <input class="ehe" type="number" min="1" max="10" placeholder="Enter a number between 1 and 10"><br><br>
+
+
+            <label>Where did it happen?</label>
+            <select class="place" name="place" id="place">
+                <option value="at home">At Home</option>
+                <option value="other">other</option>
+                <option value="...">...</option>
+            </select><br> <br>
+
+            <span class="time">At what time of day did it happen?</span>
+            <div class="timehappen">
+                <div class="morning">
+                    <input type="radio" name="morning" value="morning">Morning
+                </div> <br>
+                <div class="afternoon">
+                    <input type="radio" name="afternoon" value="afternoon">
+                    <label for="">Afternoon</label>
+                </div> <br>
+                <div class="evening">
+                    <input type="radio" name="evening" value="evening">Evening
+                </div>
+
+            </div> <br><br> <br>
+
+
+            <div class="emotions">
+                <span>What emotions did you experience?</span><br>
+                <span>(select all that apply)</span><br>
+
+                <div class="checkbox">
+
+                    <div class="excited">
+                        <input type="checkbox"> Excited
+                    </div><br>
+
+                    <div class="humbled">
+                        <input type="checkbox"> Humbled
+                    </div><br>
+
+                    <div class="elated">
+                        <input type="checkbox"> Elated
+                    </div><br>
+
+                    <div class="loved">
+                        <input type="checkbox"> Loved
+                    </div><br>
+
+                    <div class="enthuasiastic">
+                        <input type="checkbox"> Enthuasiastic
+                    </div><br>
+
+                </div><br>
+            </div>
+            <div class="dude">
+                <span class="dud">Please describen your positive experience.</span>
+            </div>
+            <div class="decs">
+                <textarea id="desc" cols="40" rows="3" placeholder="Enter your experience here..."></textarea>
+            </div>
+        </div>
+        <button class="button">Submit</button>
+    </div>
+</body>
+
+</html>
